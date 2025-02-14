@@ -8,4 +8,5 @@ In this case, there are only a few experiments with always the same parameter or
 
 ### HPLC_multi_batch
 In this case, there are many experiments with different parameters, such as temperature, pH, substrate combinations, etc. 
+
 3. Both scripts are creating an EnzymeML_file.json and a concentration_time_courses.png. 
