@@ -7,7 +7,9 @@ Figure 1 Schematic overview of the research data management piepline
 
 ## How to use
 1. Data structure
-   For the input of the data structure, shut ordered like represented in Figure 2. 
+   
+   For the input of the data structure, shut ordered like represented in Figure 2.
+   
    The **folder** of the calibration data shut include the name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** shut include the concentration of the compound and the unit.
    The time sample data **files** shut include the time the sample was taken and the unit.
    
