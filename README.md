@@ -14,11 +14,8 @@ For information how to install visite the [chromatopy documentation](https://fai
    The calibration **folder** shut include the molecule name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** shut include the concentration of the compound and the unit.
    The time sample data **files** shut include the time the sample was taken and the unit.
    
-   ![image](https://github.com/user-attachments/assets/4a75e3c3-9499-43ca-84df-8c8bf6eebb49)
+   ![image](https://github.com/user-attachments/assets/9789044d-9294-4286-b1d4-f2c9f0753264)
 
-
-
-   
    Figure 2 Representation of the data structure
 
 3. From the calibration data, the script HPLC_creation_molecuels creates a virtual molecule.
