@@ -13,7 +13,8 @@ Figure 1 Schematic overview of the research data management piepline
    The calibration **folder** shut include the molecule name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** shut include the concentration of the compound and the unit.
    The time sample data **files** shut include the time the sample was taken and the unit.
    
-   ![image](https://github.com/user-attachments/assets/02582359-cc68-427e-8b4b-495c0fa0a3b7)
+   ![image](https://github.com/user-attachments/assets/3340c58b-4406-4947-9016-6440842a9170)
+
    
    Figure 2 Representation of the data structure
 
