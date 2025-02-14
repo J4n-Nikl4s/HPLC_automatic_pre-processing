@@ -3,9 +3,9 @@ Research data management (RDM) is important to create reproducible and reliable 
 1. From the calibration data, the script HPLC_creation_molecuels creates a virtual molecule.
 2. Depending on how much data has to be analyzed, two different scripts were created. 
 
-# HPLC_singel_batch
+### HPLC_singel_batch
 In this case, there are only a few experiments with always the same parameter or the same enzyme.
 
-# HPLC_multi_batch
+### HPLC_multi_batch
 In this case, there are many experiments with different parameters, such as temperature, pH, substrate combinations, etc. 
 3. Both scripts are creating an EnzymeML_file.json and a concentration_time_courses.png. 
