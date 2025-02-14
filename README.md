@@ -1,4 +1,6 @@
 Research data management (RDM) is important to create reproducible and reliable data and can be a time-consuming. In this project, we established an RDM pipeline for HPLC data created by the Agilent HPLC-software (OpenLab CDS 2.7), using the Python package [chromatopy](https://github.com/FAIRChemistry/chromatopy) developed by Max Häußler. This helps to speed up and standardize RDM for the HPLC analysis. The data are saved in a machine-readable XML format called [EnzymeML](https://enzymeml.github.io/tools/).  We created this project to help us with the analysis of enzyme and enzyme cascade reactions but could be used in theory for other use cases.
+![image](https://github.com/user-attachments/assets/0742a9c3-03fd-443b-ac55-0edce715e35a)
+
 
 1. From the calibration data, the script HPLC_creation_molecuels creates a virtual molecule.
 2. Depending on how much data has to be analyzed, two different scripts were created. 
