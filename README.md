@@ -1,14 +1,23 @@
-Research data management (RDM) is important to create reproducible and reliable data and can be a time-consuming. In this project, we established an RDM pipeline for HPLC data created by the Agilent HPLC-software (OpenLab CDS 2.7), using the Python package [chromatopy](https://github.com/FAIRChemistry/chromatopy) developed by Max Häußler. This helps to speed up and standardize RDM for the HPLC analysis. The data are saved in a machine-readable XML format called [EnzymeML](https://enzymeml.github.io/tools/).  We created this project to help us with the analysis of enzyme and enzyme cascade reactions but could be used in theory for other use cases.
-![image](https://github.com/user-attachments/assets/0742a9c3-03fd-443b-ac55-0edce715e35a)
+Research data management (RDM) is important to create reproducible and reliable data but can be a time-consuming. In this project, we established an RDM pipeline (Figure 1 A) for HPLC data created by the Agilent HPLC-software (OpenLab CDS 2.7), example can be found in Figure 1 B, using the Python package [chromatopy](https://github.com/FAIRChemistry/chromatopy) developed by Max Häußler. This helps to speed up and standardize RDM for the HPLC analysis. The data are saved in a machine-readable XML format called [EnzymeML](https://enzymeml.github.io/tools/).  We created this project to help us with the analysis of enzyme and enzyme cascade reactions but could be used in theory for other use cases.
+![image](https://github.com/user-attachments/assets/47e7cc9d-52d0-404e-8eac-8fa941770905)
+Figure 1 Schematic overview of the research data management piepline 
+
+## How to use
+1. Data structure
+   For the input of the data structure, shut ordered like represented in Figure 2. 
+   The **folder** of the calibration data shut include the name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** shut include the concentration of the compound and the unit.
+   The time sample data **files** shut include the time the sample was taken and the unit. 
+   ![image](https://github.com/user-attachments/assets/d9bcc714-ea92-43ab-b1c5-e72dc254cc09)
+   Figure 2 Representation of the data structure
+
+3. From the calibration data, the script HPLC_creation_molecuels creates a virtual molecule.
+4. Depending on how much data has to be analyzed, two different scripts were created.
+
+   HPLC_single_batch
+   In this case, there are only a few experiments with always the same parameter or the same enzyme.
+
+   HPLC_multi_batch
+   In this case, there are many experiments with different parameters, such as temperature, pH, substrate combinations, etc. 
 
 
-1. From the calibration data, the script HPLC_creation_molecuels creates a virtual molecule.
-2. Depending on how much data has to be analyzed, two different scripts were created. 
-
-### HPLC_singel_batch
-In this case, there are only a few experiments with always the same parameter or the same enzyme.
-
-### HPLC_multi_batch
-In this case, there are many experiments with different parameters, such as temperature, pH, substrate combinations, etc. 
-
-3. Both scripts are creating an EnzymeML_file.json and a concentration_time_courses.png. 
+3. Both scripts are creating an EnzymeML_file.json and  concentration_time_courses.png. 
