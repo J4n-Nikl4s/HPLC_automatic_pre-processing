@@ -14,7 +14,8 @@ For information how to install visite the [chromatopy documentation](https://fai
    The calibration **folder** shut include the molecule name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** shut include the concentration of the compound and the unit.
    The time sample data **files** shut include the time the sample was taken and the unit.
    
-   ![image](https://github.com/user-attachments/assets/6fdca970-ad66-444f-9a0a-10afa040fa58)
+   ![image](https://github.com/user-attachments/assets/4a75e3c3-9499-43ca-84df-8c8bf6eebb49)
+
 
 
    
