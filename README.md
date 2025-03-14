@@ -11,8 +11,8 @@ For information on how to install, visit the [chromatopy documentation](https://
    
    For the input of the data structure, should be ordered like represented in Figure 2.
    
-   The calibration **folder** shut includes the molecule name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** shut include the concentration of the compound and the unit.
-   The time sample data **files** shut include the time the sample was taken and the unit.
+   The calibration **folder** should includes the molecule name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** should include the concentration of the compound and the unit.
+   The time sample data **files** should include the time the sample was taken and the unit.
    
    ![image](https://github.com/user-attachments/assets/9789044d-9294-4286-b1d4-f2c9f0753264)
 
