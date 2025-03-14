@@ -6,12 +6,12 @@ Research data management (RDM) is important to create reproducible and reliable 
 Figure 1 Schematic overview of the research data management piepline 
 
 ## How to use
-For information how to install visite the [chromatopy documentation](https://fairchemistry.github.io/chromatopy/#installation) page
+For information on how to install, visit the [chromatopy documentation](https://fairchemistry.github.io/chromatopy/#installation) page
 1. Data structure
    
-   For the input of the data structure, shut ordered like represented in Figure 2.
+   For the input of the data structure, should be ordered like represented in Figure 2.
    
-   The calibration **folder** shut include the molecule name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** shut include the concentration of the compound and the unit.
+   The calibration **folder** shut includes the molecule name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** shut include the concentration of the compound and the unit.
    The time sample data **files** shut include the time the sample was taken and the unit.
    
    ![image](https://github.com/user-attachments/assets/9789044d-9294-4286-b1d4-f2c9f0753264)
