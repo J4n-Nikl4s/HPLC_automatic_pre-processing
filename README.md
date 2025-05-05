@@ -14,7 +14,8 @@ For information on how to install, visit the [chromatopy documentation](https://
    The calibration **folder** should includes the molecule name and the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) Compound CID. The calibration data **files** should include the concentration of the compound and the unit.
    The time sample data **files** should include the time the sample was taken and the unit.
    
-   ![image](https://github.com/user-attachments/assets/9789044d-9294-4286-b1d4-f2c9f0753264)
+   ![image](https://github.com/user-attachments/assets/e015ea03-0b4c-4548-b50a-3d41a45aa496)
+
 
    Figure 2 Representation of the data structure
 
