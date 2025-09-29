@@ -1,7 +1,7 @@
 {
-    "id": "ATP",
-    "pubchem_cid": 5957,
-    "name": "5'-Atp",
+    "id": "GDP",
+    "pubchem_cid": 135398619,
+    "name": "Guanosine Diphosphate",
     "init_conc": null,
     "conc_unit": {
         "id": "mmol / l",
@@ -21,12 +21,12 @@
             }
         ]
     },
-    "retention_time": 5.64,
+    "retention_time": 4.29,
     "wavelength": 254.0,
     "standard": {
-        "molecule_id": "ATP",
-        "pubchem_cid": 5957,
-        "molecule_name": "5'-Atp",
+        "molecule_id": "GDP",
+        "pubchem_cid": 135398619,
+        "molecule_name": "Guanosine Diphosphate",
         "ph": 8.0,
         "temperature": 37.0,
         "temp_unit": {
@@ -64,8 +64,8 @@
                         }
                     ]
                 },
-                "signal": 1097.1372,
-                "ld_id": "md:Sample/548f8268-65e0-43bc-b077-8be74523d438",
+                "signal": 1427.1623,
+                "ld_id": "md:Sample/bac554b0-6c09-48cf-9755-8511a16b35d5",
                 "ld_type": [
                     "md:Sample"
                 ],
@@ -93,8 +93,8 @@
                         }
                     ]
                 },
-                "signal": 2187.6632,
-                "ld_id": "md:Sample/a6ce655d-a59b-4c7f-b495-faf4863d066c",
+                "signal": 2531.2069,
+                "ld_id": "md:Sample/c65d6662-a7ba-45ee-9a83-ed1c616f8337",
                 "ld_type": [
                     "md:Sample"
                 ],
@@ -122,8 +122,8 @@
                         }
                     ]
                 },
-                "signal": 4386.5096,
-                "ld_id": "md:Sample/46fbcef0-5243-4218-90a7-7594cb53afa7",
+                "signal": 4732.8013,
+                "ld_id": "md:Sample/753ce98b-ce38-4b83-8117-1da170f5d2fc",
                 "ld_type": [
                     "md:Sample"
                 ],
@@ -151,8 +151,8 @@
                         }
                     ]
                 },
-                "signal": 6497.913,
-                "ld_id": "md:Sample/262b40a5-a042-486c-8e13-bc3aa1ea5125",
+                "signal": 6900.0087,
+                "ld_id": "md:Sample/9988cf1c-0b20-4a60-b2ea-9a97f422efc5",
                 "ld_type": [
                     "md:Sample"
                 ],
@@ -180,8 +180,8 @@
                         }
                     ]
                 },
-                "signal": 8859.0979,
-                "ld_id": "md:Sample/2c9d451b-0ae6-443f-88a2-61117dc4781b",
+                "signal": 9089.6188,
+                "ld_id": "md:Sample/6196e893-3ef8-4355-9bba-d765ed6049d8",
                 "ld_type": [
                     "md:Sample"
                 ],
@@ -209,8 +209,8 @@
                         }
                     ]
                 },
-                "signal": 11102.0496,
-                "ld_id": "md:Sample/e8310c5e-5c17-4e96-890b-a87c366e9f4d",
+                "signal": 11361.1495,
+                "ld_id": "md:Sample/27e24d0a-c0b6-4bcd-b655-b7ab438f1902",
                 "ld_type": [
                     "md:Sample"
                 ],
@@ -238,8 +238,8 @@
                         }
                     ]
                 },
-                "signal": 16619.756,
-                "ld_id": "md:Sample/597c6d83-21ac-401c-8b69-d201b1ef4763",
+                "signal": 16747.9006,
+                "ld_id": "md:Sample/620e66bc-7944-46b7-86c5-2f966aa90bae",
                 "ld_type": [
                     "md:Sample"
                 ],
@@ -267,8 +267,8 @@
                         }
                     ]
                 },
-                "signal": 22017.6452,
-                "ld_id": "md:Sample/59de904c-fe5e-4b65-920e-a87668e76102",
+                "signal": 22116.0002,
+                "ld_id": "md:Sample/d31f3527-90df-45d3-b83a-747391282fc2",
                 "ld_type": [
                     "md:Sample"
                 ],
@@ -279,17 +279,17 @@
         ],
         "result": {
             "name": "linear",
-            "molecule_id": "ATP",
-            "signal_law": "ATP * a",
+            "molecule_id": "GDP",
+            "signal_law": "GDP * a",
             "parameters": [
                 {
                     "symbol": "a",
-                    "value": 2206.970551554529,
+                    "value": 2238.032699963504,
                     "init_value": 1.0,
-                    "stderr": 4.392742363489758,
+                    "stderr": 16.317800811995554,
                     "lower_bound": 0.001,
                     "upper_bound": 10000000000.0,
-                    "ld_id": "md:Parameter/65ae631a-a768-4956-822c-943f6c48a5a5",
+                    "ld_id": "md:Parameter/02955b20-95db-436b-8613-d0252e173600",
                     "ld_type": [
                         "md:Parameter"
                     ],
@@ -303,8 +303,8 @@
                 "conc_lower": 0.0,
                 "conc_upper": 10.0,
                 "signal_lower": 0.0,
-                "signal_upper": 22017.6452,
-                "ld_id": "md:CalibrationRange/9f792e0a-4160-48f0-ac49-8114472eaceb",
+                "signal_upper": 22116.0002,
+                "ld_id": "md:CalibrationRange/0c8c6ff6-c7cf-4a6d-966b-116a00d303dd",
                 "ld_type": [
                     "md:CalibrationRange"
                 ],
@@ -313,11 +313,11 @@
                 }
             },
             "statistics": {
-                "aic": 67.57796017476849,
-                "bic": 67.65740171644833,
-                "r2": 0.9999211293456652,
-                "rmsd": 60.257226731147234,
-                "ld_id": "md:FitStatistics/066923c7-97a0-414a-8ccf-3e6fb7f8e594",
+                "aic": 88.57388202657668,
+                "bic": 88.65332356825652,
+                "r2": 0.9988817394838447,
+                "rmsd": 223.82570060486626,
+                "ld_id": "md:FitStatistics/03d16b3f-afd4-4232-bc86-05dcccb699e8",
                 "ld_type": [
                     "md:FitStatistics"
                 ],
@@ -325,7 +325,7 @@
                     "md": "https://github.com/FAIRChemistry/CaliPytion"
                 }
             },
-            "ld_id": "md:CalibrationModel/62263fff-fe8d-48bf-9603-0aca6392bd7f",
+            "ld_id": "md:CalibrationModel/af73a603-bb97-4a49-9ccb-8352387cbd0c",
             "ld_type": [
                 "md:CalibrationModel"
             ],
@@ -333,7 +333,7 @@
                 "md": "https://github.com/FAIRChemistry/CaliPytion"
             }
         },
-        "ld_id": "https://pubchem.ncbi.nlm.nih.gov/compound/5957",
+        "ld_id": "https://pubchem.ncbi.nlm.nih.gov/compound/135398619",
         "ld_type": [
             "md:Calibration"
         ],

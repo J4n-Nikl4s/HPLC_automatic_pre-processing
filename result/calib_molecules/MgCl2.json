@@ -1,0 +1,14 @@
+{
+    "id": "MgCl2",
+    "pubchem_cid": 5360315,
+    "name": "Magnesium Chloride",
+    "init_conc": null,
+    "conc_unit": null,
+    "retention_time": null,
+    "wavelength": null,
+    "standard": null,
+    "retention_tolerance": 0.1,
+    "constant": false,
+    "internal_standard": false,
+    "min_signal": 0.0
+}

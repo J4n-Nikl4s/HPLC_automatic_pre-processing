@@ -1,0 +1,14 @@
+{
+    "id": "TrisHCL",
+    "pubchem_cid": 11091,
+    "name": "Tris HCL",
+    "init_conc": null,
+    "conc_unit": null,
+    "retention_time": null,
+    "wavelength": null,
+    "standard": null,
+    "retention_tolerance": 0.1,
+    "constant": false,
+    "internal_standard": false,
+    "min_signal": 0.0
+}
