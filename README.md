@@ -6,7 +6,7 @@ Research data management (RDM) is important to create reproducible and reliable 
 Figure 1 Schematic overview of the research data management piepline 
 
 ## How to use
-For information on how to install, visit the [chromatopy documentation](https://fairchemistry.github.io/chromatopy/#installation) page
+For information on how to install, visit the [chromhandler documentation](https://fairchemistry.github.io/chromatopy/#installation) page
 1. Data structure
    
    For the input of the data structure, should be ordered like represented in Figure 2.
